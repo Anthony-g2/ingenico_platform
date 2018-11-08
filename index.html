@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+			  src='https://code.jquery.com/jquery-3.3.1.js'
+			  integrity='sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60='
+			  crossorigin='anonymous'></script>
+    <script src='./app.js'></script>
+    <meta charset='utf-8'>
+    <title></title>
+  </head>
+  <body>
+    <img src="http://media.marketwire.com/attachments/201601/21149_INGENICO_EPAYMENTS.jpg" alt="ingenico-logo">
+    <h1>Platform Integration Assignment</h1>
+    <h5>Coded by Anthony G</h5>
+    <br>
+    <b>Check the console for responses | Go in order for best results</b>
+    <hr>
+    <div class='test'>
+      <p>Test Platform Connection</p>
+      <button type='button' id='test'>Submit</button>
+    </div>
+    <hr>
+    <div class='payment'>
+      <p>Make a Payment</p>
+      <button type='button' id='payment'>Submit</button>
+    </div>
+    <hr>
+    <div class='refund'>
+      <p>Check Payments</p>
+      <button type='button' id='find'>Submit</button>
+      <hr>
+      <p>Make Refund
+        <br>
+        <small>(Input an <b><code>id</code></b> from the <b><code>payments</code></b> array
+           provided by the last step)</small>
+      </p>
+      <input type='text' id='paymentId' value=''>
+      <button type='button' id='refund'>Submit</button>
+      <hr>
+      <p>Check Refunds
+        <br>
+        <small>(Give at least an hour for refunds to process)</small>
+      </p>
+      <button type='button' id='findRef'>Submit</button>
+    </div>
+  </body>
+</html>
